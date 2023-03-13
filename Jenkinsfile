@@ -9,9 +9,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh '''NPM_CONFIG_CACHE = "${WORKSPACE}/.npm"
-export NPM_CONFIG_CACHE
-
+        sh '''
 npm install'''
       }
     }
