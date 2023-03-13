@@ -15,4 +15,7 @@ npm install'''
     }
 
   }
+  environment {
+    HOME = '.'
+  }
 }
